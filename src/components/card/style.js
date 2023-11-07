@@ -8,11 +8,19 @@ export const CardWrapper = styled.div`
   margin: auto;
   margin-top: 30px;
   padding-top: 30px;
-  width: 400px;
+  width: 86%;
   min-height: 87vh;  
   background-color: white;
   border-radius: 10px;
   color: black;
+
+  @media screen and (min-width: 500px ) {
+    width: 400px;
+  }
+
+  @media screen and (min-width: 800px ) {
+    width: 500px;
+  }
 `
 
 export const CardTitle = styled.h1`
